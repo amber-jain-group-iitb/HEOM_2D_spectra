@@ -225,7 +225,7 @@ subroutine setup_parameters
   dip_moment_pos(4,3)=1.d0
   dip_moment_neg=0.d0
   dip_moment_neg(1,2)=1.d0
-  dip_moment_neg(1,3)=-1.d0
+  dip_moment_neg(1,3)=1.d0
   dip_moment_neg(2,4)=1.d0
   dip_moment_neg(3,4)=1.d0
 
