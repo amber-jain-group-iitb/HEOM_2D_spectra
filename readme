@@ -1,0 +1,10 @@
+Running instructions:
+
+1. Set iflow to 2 in spectra_heom.inp
+2. Issue ./run
+3. Once jobs finish (check via qstat), files dip_mom_corr.out and components_correlation.out are created in each folder. (dip_mom_corr.out contains the overall dipole correlation fun as a function of t1 (col 1) and t3 (col 3). components_correlation.out has information for all the individual Feynman diagrams.)
+4. set iflow to 3 and issue ./run. This will combine all the dip_mom_corr.out into the working folder. (components_correlation.out not implemented to combined.)
+5. Copy dip_mom_corr.out to brute_force_ft/ folder
+6. cd to brute_force_ft folder
+7. Compile (with make) and run ./aout
+8. This will genarate the 2D spectra in the file spectra.out. column 1: w1, 2: w2, 3: spectra (arbitrary units)

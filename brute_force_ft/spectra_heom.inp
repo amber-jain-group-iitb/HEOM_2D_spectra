@@ -1,0 +1,16 @@
+3                                 !! iflow
+100                               !! iproc
+20                                !! iparallel
+10                               !! iwait
+4                                 !! nquant
+15                                 !! LL
+0                                 !! KK
+0.d0                              !! t2(s)
+0.25d-12                            !! t1_max(s)
+0.25d-12                            !! t3_max(s)
+2                                 !! nst_write
+1.d-5                             !! tolerance
+1.d-15                            !! dt (s)
+1.d-15                            !! dt_t1 (s)
+0.2d-12                           !! tim_tot (s)
+x
